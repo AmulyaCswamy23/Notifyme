@@ -7,8 +7,7 @@ from email.mime.multipart import MIMEMultipart
 # Send email function
 def send_reminder_email(to_email, subject, message_body):
     from_email = "your_email@gmail.com"
-    app_password = "uwyf fplp anvl qfkn"  # <-- Your 16-char app password
-
+    app_password = "****************"  # <-- Your 16-char app pass
     message = MIMEMultipart()
     message['From'] = from_email
     message['To'] = to_email
