@@ -4,9 +4,9 @@ import threading
 import time
 
 # Twilio credentials (replace with your own)
-account_sid = 'ACa7bd845be5ec2545b7ad725e578658fe'
-auth_token = '82c34b34ab228f2c7ef6ffda761d2f23'  # Replace with real auth token
-messaging_service_sid = 'MG4d34ed5bd40f8d3ce7f43c570c034374'  # Optional
+account_sid = 'your_account_sid'
+auth_token = 'your_actual_auth_token'  # Replace with real auth token
+messaging_service_sid = 'message_sid'  # Optional
 
 client = Client(account_sid, auth_token)
 
